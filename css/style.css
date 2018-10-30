@@ -1,0 +1,30 @@
+html, body {
+    height:100%;
+}
+.container{
+    text-align: left;
+}
+#unsorted{
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+#unsorted div, #invertebrates div, #vertebrates div{
+    border-radius: 5px;
+    background-color:  #a6a6a6;
+    padding: 0.5vh 4vw;
+    margin: 0.2em;
+    text-align: center;
+}
+#invertebrates, #vertebrates{
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    padding: 0.5em;
+    min-height: 30vh;
+}
+.with-margin{
+    margin-bottom: 3vh;
+}
+.dropped{
+    color: white;
+}
