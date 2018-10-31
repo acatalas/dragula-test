@@ -19,7 +19,7 @@ window.onload = function(){
         //invalid elements don't fire a drag event
         //fired whenever an element is clicked
         /*moves: function(el, source, handle, sibling){
-            return handle.classList.contains('handle');
+            return handle.tagName != "P";
         },*/
         
         //make sure that an 
@@ -71,11 +71,15 @@ window.onload = function(){
         //if true, the element shouldn't trigger a drag event
         //handle is the element that was clicked
         //el is the element that would be dragged
-        invalid: function (el, handle) {
+        /*invalid: function (el, handle) {
             return handle.tagName == "H2";
-        }
+        }*/
     });
-    drake.on("drop", function(el){
+    /*drake.on("drop", function(el){
+        el.className = "";
+    })*/
+    /*drake.on("drag", function(el, source){
         el.className = "dropped";
-    })
+    })*/
+    
 }

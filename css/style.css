@@ -16,6 +16,9 @@ html, body {
     margin: 0.2em;
     text-align: center;
 }
+div p{
+    margin: 0;
+}
 #invertebrates, #vertebrates{
     background-color: #d9d9d9;
     border-radius: 5px;

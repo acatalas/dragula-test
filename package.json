@@ -9,6 +9,10 @@
     "lite": "lite-server"
   },
   "author": "Alejandra Català",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/acatalas/dragula-test.git"
+  },
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.1.3",
